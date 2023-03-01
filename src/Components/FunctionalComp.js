@@ -5,3 +5,8 @@ function FunctionalComp() {
 }
 
 export default FunctionalComp
+
+export const FunctionalArrow = () => {
+    return <div> This is example for arrow function</div>
+}
+
