@@ -16,6 +16,10 @@ import App from './App';
 // import ClassEvent from './Components/ClassEvent';
 import Bind from './Components/Bind';
 import MethodClass from './Components/MethodClass';
+import ConditionalRendering from './Components/ConditionalRendering';
+import ListRendering from './Components/ListRendering';
+import Index from './Components/Index';
+import Inline from './Components/Inline';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -38,6 +42,10 @@ root.render(
      <ClassEvent /> */}
      <Bind />
      <MethodClass />
+     <ConditionalRendering />
+     <ListRendering />
+     <Index />
+     <Inline />
   </React.StrictMode>
 );
 
