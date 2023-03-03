@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 //Defautt export
 // import MyComponent from './Components/ClassComp';
 // //Named import
@@ -14,17 +14,19 @@ import App from './App';
 // import DesClass from './Components/DesClass';
 // import FuncEvent from './Components/FuncEvent';
 // import ClassEvent from './Components/ClassEvent';
-import Bind from './Components/Bind';
-import MethodClass from './Components/MethodClass';
-import ConditionalRendering from './Components/ConditionalRendering';
-import ListRendering from './Components/ListRendering';
-import Index from './Components/Index';
-import Inline from './Components/Inline';
+// import Bind from './Components/Bind';
+// import MethodClass from './Components/MethodClass';
+// import ConditionalRendering from './Components/ConditionalRendering';
+// import ListRendering from './Components/ListRendering';
+// import Index from './Components/Index';
+// import Inline from './Components/Inline';
+// import FormTest from './Components/FormTest';
+import LifeCycleA from './Components/LifeCycleA';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <FunctionalArrow />
     <MyComponent />
     <Hello />
@@ -40,12 +42,14 @@ root.render(
      {/* <SetStateComp /> */}
      {/* <FuncEvent />
      <ClassEvent /> */}
-     <Bind />
+     {/* <Bind />
      <MethodClass />
      <ConditionalRendering />
      <ListRendering />
      <Index />
      <Inline />
+     <FormTest /> */}
+     <LifeCycleA />
   </React.StrictMode>
 );
 
