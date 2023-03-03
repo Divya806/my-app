@@ -21,7 +21,10 @@ import './index.css';
 // import Index from './Components/Index';
 // import Inline from './Components/Inline';
 // import FormTest from './Components/FormTest';
-import LifeCycleA from './Components/LifeCycleA';
+// import LifeCycleA from './Components/LifeCycleA';
+// import Fragment from './Components/Fragment';
+// import ParentComp from './Components/ParentComp';
+import Get from './Components/Get';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -49,7 +52,10 @@ root.render(
      <Index />
      <Inline />
      <FormTest /> */}
-     <LifeCycleA />
+     {/* <LifeCycleA />
+     <Fragment /> */}
+     {/* <ParentComp /> */}
+     <Get />
   </React.StrictMode>
 );
 
