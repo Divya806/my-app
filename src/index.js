@@ -24,7 +24,8 @@ import './index.css';
 // import LifeCycleA from './Components/LifeCycleA';
 // import Fragment from './Components/Fragment';
 // import ParentComp from './Components/ParentComp';
-import Get from './Components/Get';
+// import Get from './Components/Get';
+import PostForm from './Components/PostForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -55,7 +56,7 @@ root.render(
      {/* <LifeCycleA />
      <Fragment /> */}
      {/* <ParentComp /> */}
-     <Get />
+     <PostForm />
   </React.StrictMode>
 );
 
